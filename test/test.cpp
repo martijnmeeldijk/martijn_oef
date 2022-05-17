@@ -121,7 +121,17 @@ TEST_CASE("sorteren")
 
     SUBCASE("Ternaire radix sort")
     {
-        std::vector<int> ter = v;
+        std::vector<std::string> ter = { "analyseren",
+            "te",
+            "eventuele",
+            "zoeken",
+            "door",
+            "microscopen",
+            "analytisch",
+            "bananen",
+            "inconsistenties",
+            "met",
+            "aapjes" };
         ternaire_radix(ter);
         CHECK(std::is_sorted(ter.begin(), ter.end()));
     }
