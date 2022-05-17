@@ -11,7 +11,7 @@ include_directories(include)
 
 #file(GLOB TARGET_SRC "./src/*.cpp" )
 
-add_executable(dynamic_programming src/main.cpp src/huizen.cpp src/trap.cpp src/nummerslang.cpp src/sorteren.cpp)
+add_executable(dynamic_programming src/main.cpp src/huizen.cpp src/trap.cpp src/nummerslang.cpp src/plus.cpp src/sorteren.cpp)
 
 
 enable_testing()

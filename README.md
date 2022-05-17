@@ -38,3 +38,11 @@ In welke stukken moeten we de staaf daarvoor snijden?
 Veronderstel dat je een klavier hebt waarvan alle toetsen op1rij staan. De 26 meest linkse karakters zijn de letters A-Z, gevolgd door de cijfers 0-9, gevolgd door de punctuatiekarakters. De laatste toets is een spatie. Je start met je linkse wijsvinger op de meest linkse toets (letter A), en met je rechtse wijsvinger op de meest rechtste toets (spatie). 
 
 Ontwerp met dynamisch programmeren een algoritme dat de meest efficiënte manier vindt om een gegeven tekst van **n** karakters te typen. Dit is de manier die de totale afstand afgelegd door beide wijsvingers minimaliseert.
+
+
+
+## Plus
+
+Gegeven een n×m binaire matrix. Wat is de plaats en grootte van het grootste plusteken dat wordt gevormd door 1-tjes?
+
+<img src="img/image-20220516155756270.png" alt="image-20220516155756270" style="zoom:50%;" />

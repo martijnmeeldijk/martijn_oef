@@ -38,7 +38,6 @@ int nummerslang(std::vector<std::vector<int>>& matrix)
             }
         }
     }
-    printmatrix(cum);
 
     return cum[n - 1][n - 1]; // eigenlijk is het maximum niet speciaal de laatste waarde.
 }

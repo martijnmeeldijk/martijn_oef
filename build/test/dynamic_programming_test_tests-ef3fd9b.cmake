@@ -1,5 +1,0 @@
-add_test( trap /Users/martijn/Desktop/School/Schakeljaar/Algoritmen/martijn_oef/build/test/dynamic_programming_test [==[--test-case=trap]==] -o report.xml -s -r junit)
-set_tests_properties( trap PROPERTIES WORKING_DIRECTORY /Users/martijn/Desktop/School/Schakeljaar/Algoritmen/martijn_oef/build/test LABELS)
-add_test( nummerslang /Users/martijn/Desktop/School/Schakeljaar/Algoritmen/martijn_oef/build/test/dynamic_programming_test [==[--test-case=nummerslang]==] -o report.xml -s -r junit)
-set_tests_properties( nummerslang PROPERTIES WORKING_DIRECTORY /Users/martijn/Desktop/School/Schakeljaar/Algoritmen/martijn_oef/build/test LABELS)
-set( dynamic_programming_test_TESTS trap nummerslang)

@@ -13,7 +13,7 @@ FetchContent_MakeAvailable(DocTest)
  
 project (dynamic_programming_test)
 
-add_executable(${PROJECT_NAME} ../src/huizen.cpp ../src/trap.cpp ../src/nummerslang.cpp ../src/sorteren.cpp test.cpp)
+add_executable(${PROJECT_NAME} ../src/huizen.cpp ../src/trap.cpp ../src/nummerslang.cpp ../src/sorteren.cpp ../src/plus.cpp test.cpp)
 target_link_libraries(${PROJECT_NAME} doctest)
  
 include(CTest)
